@@ -1,0 +1,60 @@
+body {
+	box-sizing: border-box;
+	background-image: url("wallpaper/default.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1730px;
+	position: relative;
+}
+
+.header {
+	color: white;
+	font-size: 32px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.icons {
+	width: 100%;
+	position: relative;
+}
+
+.icon {
+	float: left;
+ 	width: calc((100% - 150px) / 4);
+ 	margin: 30px 5px;
+}
+
+p {
+	color: white;
+	position: relative;
+	top: 20px;
+}
+
+.pages span {
+ 	color: white;
+ 	opacity: 1;
+ }
+
+.pages {
+	color: black;
+ 	position: relative;
+ 	font-size: 70px;
+ 	right: 420px;
+ 	top: 1260px;
+ 	opacity: 0.5;
+ }
+
+.icon img {
+	width: 80%;
+ 	border-radius: 20px;
+ 	position: relative;
+ 	left: 80px;
+ 	top: 20px;
+}
+
+.dock-icons {
+ 	position: relative;
+ 	top: 340px;
+ }
